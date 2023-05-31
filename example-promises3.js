@@ -46,3 +46,9 @@ const getPokemonsAsync = async () => {
         console.log(error.message)
     }
 }
+
+
+fetch("", {})
+    .then((response) => {}) // Respuesta del Servidor
+    .then((data) => {}) // Data a consultar
+    .catch((error) => {}) // Cualquier error atrapado
